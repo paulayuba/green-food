@@ -1,0 +1,53 @@
+*{
+	margin: o;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: #777;
+}
+nav ul{
+	list-style: none;
+	padding: 0;
+	text-align: center;
+}
+header{
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+nav ul li{
+	display: inline-block;
+	justify-content: space-around;
+	margin: 20px;
+	
+}
+nav ul li a{
+	text-decoration: none;
+	border: #f1600c 3px solid;
+	border-radius: 20px;
+	padding: 10px;
+	
+}
+nav a:hover{
+	color: aqua;
+}
+a{
+	color: aliceblue;
+	font-size: medium;
+	
+}
+
+main img{
+	justify-content: center;
+	align-items: center;
+	width: 30%;
+	display: flex;
+	display: inline-block;
+	height: 300px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+.container{
+	width: 90%;
+}
